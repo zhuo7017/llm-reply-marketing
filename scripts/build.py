@@ -24,6 +24,11 @@ def w(rel: str, text: str) -> None:
     p.write_text(text, encoding="utf-8")
 
 
+def count_papers(n: int) -> str:
+    """'1 paper' / '2 papers' — the home page used to read '1 papers'."""
+    return f"{n} paper" + ("" if n == 1 else "s")
+
+
 # ------------------------------------------------------------------ pages ----
 
 
@@ -52,7 +57,7 @@ For structured data: <a href="/index.json">/index.json</a>.</p>
 
 <h2>Research themes</h2>
 <ul class="grid">
-{''.join(f'<li><a href="/topics/{t["slug"]}.html">{esc(t["title"])}</a><div class="meta">{len([p for p in papers if t["slug"] in p.topics])} papers</div><p class="small">{esc(t["blurb"])}</p></li>' for t in topics if t.get("papers"))}
+{''.join(f'<li><a href="/topics/{t["slug"]}.html">{esc(t["title"])}</a><div class="meta">{count_papers(len([p for p in papers if t["slug"] in p.topics]))}</div><p class="small">{esc(t["blurb"])}</p></li>' for t in topics if t.get("papers"))}
 </ul>
 
 <h2>Most-cited papers</h2>
@@ -221,7 +226,7 @@ def build_topic(cfg, t) -> str:
 def build_topics_index(cfg, topics) -> str:
     cards = "".join(
         f'<li><a href="/topics/{t["slug"]}.html">{esc(t["title"])}</a>'
-        f'<div class="meta">{len(t.get("papers", []))} papers</div>'
+        f'<div class="meta">{count_papers(len(t.get("papers", [])))}</div>'
         f'<p class="small">{esc(t["blurb"])}</p></li>'
         for t in topics if t.get("papers")
     )
