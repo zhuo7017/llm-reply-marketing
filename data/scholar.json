@@ -1,0 +1,358 @@
+{
+ "profile": {
+  "name": "Wenzhuo Yang",
+  "affiliation": "Sun Yat-sen University Cancer Center",
+  "scholar_id": "m43GKBgAAAAJ",
+  "scholar_url": "https://scholar.google.com/citations?user=m43GKBgAAAAJ&hl=en",
+  "orcid": "",
+  "homepage": "",
+  "snapshot_date": "2026-11-15"
+ },
+ "source": "Google Scholar public profile (parsed 2026-11-15)",
+ "pubs": [
+  {
+   "title": "Automated measurement of hip–knee–ankle angle on the unilateral lower limb X-rays using deep learning",
+   "authors": "Y Pei, W Yang, S Wei, R Cai, J Li, S Guo, Q Li, J Wang, X Li",
+   "venue": "Physical and Engineering Sciences in Medicine 44 (1), 53-62, 2021",
+   "cited_by": 67,
+   "year": "2021",
+   "citation_for_view": "Tyk-4Ss8FVUC"
+  },
+  {
+   "title": "Auxiliary diagnosis of developmental dysplasia of the hip by automated detection of Sharp's angle on standardized anteroposterior pelvic radiographs",
+   "authors": "Q Li, L Zhong, H Huang, H Liu, Y Qin, Y Wang, Z Zhou, H Liu, W Yang, ...",
+   "venue": "Medicine 98 (52), e18500, 2019",
+   "cited_by": 55,
+   "year": "2019",
+   "citation_for_view": "u-x6o8ySG0sC"
+  },
+  {
+   "title": "Differential regulation of H3K9/H3K14 acetylation by small molecules drives neuron-fate-induction of glioma cell",
+   "authors": "X Liu, C Guo, T Leng, Z Fan, J Mai, J Chen, J Xu, Q Li, B Jiang, K Sai, ...",
+   "venue": "Cell Death & Disease 14 (2), 142, 2023",
+   "cited_by": 41,
+   "year": "2023",
+   "citation_for_view": "UeHWp8X0CEIC"
+  },
+  {
+   "title": "Identification of novel natural inhibitors targeting AKT Serine/Threonine Kinase 1 (AKT1) by computational study",
+   "authors": "S Zhong, Y Hou, Z Zhang, Z Guo, W Yang, G Dou, X Lv, X Wang, J Ge, ...",
+   "venue": "Bioengineered 13 (5), 12003-12020, 2022",
+   "cited_by": 41,
+   "year": "2022",
+   "citation_for_view": "IjCSPb-OGe4C"
+  },
+  {
+   "title": "Predicting glioblastoma molecular subtypes and prognosis with a multimodal model integrating convolutional neural network, radiomics, and semantics",
+   "authors": "S Zhong, JX Ren, ZP Yu, YD Peng, CW Yu, D Deng, YY Xie, ZQ He, ...",
+   "venue": "Journal of Neurosurgery 139 (2), 305-314, 2022",
+   "cited_by": 37,
+   "year": "2022",
+   "citation_for_view": "qjMakFHDy7sC"
+  },
+  {
+   "title": "Association between viral infections and glioma risk: a two-sample bidirectional Mendelian randomization analysis",
+   "authors": "S Zhong, W Yang, Z Zhang, Y Xie, L Pan, J Ren, F Ren, Y Li, H Xie, ...",
+   "venue": "BMC medicine 21 (1), 487, 2023",
+   "cited_by": 33,
+   "year": "2023",
+   "citation_for_view": "5nxA0vEk-isC"
+  },
+  {
+   "title": "Inflammatory factors and risk of meningiomas: a bidirectional mendelian-randomization study",
+   "authors": "Z Zhang, S Wang, F Ren, L Yang, H Xie, L Pan, Y Li, B Yu, Y Yang, H Su, ...",
+   "venue": "Frontiers in Neuroscience 17, 1186312, 2023",
+   "cited_by": 30,
+   "year": "2023",
+   "citation_for_view": "Se3iqnhoufwC"
+  },
+  {
+   "title": "An assessment of breast cancer HER2, ER, and PR expressions based on mammography using deep learning with convolutional neural networks",
+   "authors": "S Zeng, H Chen, R Jing, W Yang, L He, T Zou, P Liu, B Liang, D Shi, ...",
+   "venue": "Scientific Reports 15 (1), 4826, 2025",
+   "cited_by": 28,
+   "year": "2025",
+   "citation_for_view": "M3ejUd6NZC8C"
+  },
+  {
+   "title": "Selected using bioinformatics and molecular docking analyses, PHA-793887 is effective against osteosarcoma",
+   "authors": "B Wu, W Yang, Z Fu, H Xie, Z Guo, D Liu, J Ge, S Zhong, L Liu, J Liu, ...",
+   "venue": "Aging (Albany NY) 13 (12), 16425, 2021",
+   "cited_by": 22,
+   "year": "2021",
+   "citation_for_view": "zYLM7Y9cAGgC"
+  },
+  {
+   "title": "Computational research of mTORC1 inhibitor on cerebral ischemia-reperfusion injury",
+   "authors": "H Li, W Yang, Z Wang, X Wang, Y Hao, J Xi, H Lu, Z Du, J Feng, B Zhang, ...",
+   "venue": "Aging (Albany NY) 13 (15), 19598, 2021",
+   "cited_by": 16,
+   "year": "2021",
+   "citation_for_view": "9yKSN-GCB0IC"
+  },
+  {
+   "title": "Effective natural inhibitors targeting poly ADP-ribose polymerase by computational study",
+   "authors": "S Zhong, B Wu, W Yang, J Ge, X Zhang, Z Chen, H Duan, Z He, Y Liu, ...",
+   "venue": "Aging (Albany NY) 13 (2), 1898, 2021",
+   "cited_by": 16,
+   "year": "2021",
+   "citation_for_view": "u5HHmVD_uO8C"
+  },
+  {
+   "title": "Computational study on novel natural inhibitors targeting BCL2",
+   "authors": "X Lv, Y Jiang, X Wang, HQ Xie, G Dou, J Wang, W Yang, H Wang, Z Li, ...",
+   "venue": "Medical Oncology 38 (8), 94, 2021",
+   "cited_by": 15,
+   "year": "2021",
+   "citation_for_view": "2osOgNQ5qMEC"
+  },
+  {
+   "title": "Association between psychiatric disorders and glioma risk: evidence from Mendelian randomization analysis",
+   "authors": "W Yang, Y Han, C He, S Zhong, F Ren, Z Chen, Y Mou, K Sai",
+   "venue": "BMC cancer 24 (1), 118, 2024",
+   "cited_by": 13,
+   "year": "2024",
+   "citation_for_view": "MXK_kJrjxJIC"
+  },
+  {
+   "title": "New natural compound inhibitors of PDGFRA (platelet-derived growth factor receptor α) based on computational study for high− grade glioma therapy",
+   "authors": "W Yang, S Wang, X Zhang, H Sun, M Zhang, H Chen, J Cui, J Li, F Peng, ...",
+   "venue": "Frontiers in Neuroscience 16, 1060012, 2023",
+   "cited_by": 13,
+   "year": "2023",
+   "citation_for_view": "eQOLeE2rZwMC"
+  },
+  {
+   "title": "Development of an MCL-1-related prognostic signature and inhibitors screening for glioblastoma",
+   "authors": "A Zhang, Z Guo, J Ren, H Chen, W Yang, Y Zhou, L Pan, Z Chen, F Ren, ...",
+   "venue": "Frontiers in Pharmacology 14, 1162540, 2023",
+   "cited_by": 9,
+   "year": "2023",
+   "citation_for_view": "UebtZRa9Y70C"
+  },
+  {
+   "title": "COVID− 19 hospitalization increases the risk of developing glioblastoma: a bidirectional Mendelian-randomization study",
+   "authors": "J Dong, S Wang, H Xie, Y Mou, H Zhu, Y Peng, J Xi, M Zhong, Z Xie, ...",
+   "venue": "Frontiers in Oncology 13, 1185466, 2023",
+   "cited_by": 8,
+   "year": "2023",
+   "citation_for_view": "hqOjcs7Dif8C"
+  },
+  {
+   "title": "Latent Association Between Diets and Glioma Risk: A Mendelian Randomization Analysis",
+   "authors": "J Zhao, C He, H Xie, Y Zou, Z Yan, J Deng, Y Du, W Yang, X Zhang",
+   "venue": "Nutrients 17 (3), 582, 2025",
+   "cited_by": 7,
+   "year": "2025",
+   "citation_for_view": "_kc_bZDykSQC"
+  },
+  {
+   "title": "P129, a pyrazole ring-containing isolongifolanone-derivate: synthesis and investigation of anti-glioma action mechanism",
+   "authors": "Y Jiang, Y Wang, L Zhao, W Yang, L Pan, Y Bai, Y Wang, Y Li",
+   "venue": "Discover Oncology 15 (1), 6, 2024",
+   "cited_by": 7,
+   "year": "2024",
+   "citation_for_view": "8k81kl-MbHgC"
+  },
+  {
+   "title": "Case Report: A Case of Adult Methylmalonic Acidemia With Bilateral Cerebellar Lesions Caused by a New Mutation in MMACHC Gene",
+   "authors": "S Wang, X Wang, J Xi, W Yang, M Zhu",
+   "venue": "Frontiers in Neurology 13, 935604, 2022",
+   "cited_by": 7,
+   "year": "2022",
+   "citation_for_view": "Y0pCki6q_DkC"
+  },
+  {
+   "title": "Computational study on new natural compound agonists of dopamine receptor",
+   "authors": "H Li, W Yang, J Xi, Z Wang, H Lu, Z Du, W Li, B Wu, S Jiang, Y Peng, ...",
+   "venue": "Aging (Albany NY) 13 (12), 16620, 2021",
+   "cited_by": 7,
+   "year": "2021",
+   "citation_for_view": "LkGwnXOMwfcC"
+  },
+  {
+   "title": "Model construction and application for automated measurement of CE angle on pelvis orthograph based on mask-R-CNN algorithm",
+   "authors": "Q Li, W Yang, M Xu, N An, D Wang, X Wang, H Jin, J Wang, J Wang",
+   "venue": "Biomedical Physics & Engineering Express 7 (3), 035010, 2021",
+   "cited_by": 6,
+   "year": "2021",
+   "citation_for_view": "YsMSGLbcyi4C"
+  },
+  {
+   "title": "Oncolytic virus M1 reinvigorates CD8+ T-cell immunity against glioblastoma through B-cell-dependent antigen cross-presentation in the spleen",
+   "authors": "Y Han, C Guo, C Chen, W Yang, H Li, C He, J Deng, Z Chen, W Liu, ...",
+   "venue": "Cellular & Molecular Immunology 23 (4), 349-366, 2026",
+   "cited_by": 5,
+   "year": "2026",
+   "citation_for_view": "9ZlFYXVOiuMC"
+  },
+  {
+   "title": "Unveiling genetic and biological links: exploring the intersection of autoimmune and psychiatric disorders",
+   "authors": "A Liwayiding, A Maimaiti, L Pan, M Huang, W Yang, R Abudusalamu",
+   "venue": "European Journal of Medical Research 30 (1), 490, 2025",
+   "cited_by": 5,
+   "year": "2025",
+   "citation_for_view": "4DMP91E08xMC"
+  },
+  {
+   "title": "Cerebrospinal fluid protein levels are elevated 100 times in a Leptomeningeal metastasis patient: a case report and literature review",
+   "authors": "S Wang, W Yang, M Zhu, X Wang, L Pan, T Jin, Y Chen, J Xi, L Yang, ...",
+   "venue": "Frontiers in Neuroscience 17, 1174309, 2023",
+   "cited_by": 5,
+   "year": "2023",
+   "citation_for_view": "roLk4NBRz8UC"
+  },
+  {
+   "title": "Computational study on novel natural inhibitors targeting c-MET",
+   "authors": "Y Hou, H Xie, G Dou, W Yang, J Ge, B Zhou, J Ren, J Li, J Wang, Z Zhang, ...",
+   "venue": "Medicine 100 (38), e27171, 2021",
+   "cited_by": 5,
+   "year": "2021",
+   "citation_for_view": "d1gkVwhDpl0C"
+  },
+  {
+   "title": "Genomic landscape and immunological profile of glioblastoma in East Asian patients",
+   "authors": "S Zhong, B Wu, F Dubois, D Deng, JS Bergholz, W Hu, H Duan, Y Shao, ...",
+   "venue": "Cell Reports Medicine 6 (8), 2025",
+   "cited_by": 3,
+   "year": "2025",
+   "citation_for_view": "Wp0gIr-vW9MC"
+  },
+  {
+   "title": "Computational study of novel natural inhibitors targeting Kirsten rat sarcoma viral oncogene homolog G12C",
+   "authors": "W Yang, J Ge, M Yuan, J Li, L Pan, J Ren, G Dou, L Yang, Y Zhou, H Xie, ...",
+   "venue": "Anti-Cancer Drugs 34 (5), 609-619, 2023",
+   "cited_by": 3,
+   "year": "2023",
+   "citation_for_view": "W7OEmFMy1HYC"
+  },
+  {
+   "title": "Evaluating the Diagnostic and Prognostic Value of Peripheral Immune Markers in Glioma Patients: A Prospective Multi-Institutional Cohort Study of 1282 Patients",
+   "authors": "J Lu, ZY Zhang, S Zhong, D Deng, WZ Yang, SW Wu, Y Cheng, Y Bai, ...",
+   "venue": "Journal of Inflammation Research, 7477-7492, 2025",
+   "cited_by": 2,
+   "year": "2025",
+   "citation_for_view": "qxL8FJ1GzNcC"
+  },
+  {
+   "title": "血清中 microRNA 对非小细胞肺癌早期转移潜在的诊断价值",
+   "authors": "蔡睿， 王振兴， 安南， 贺云靖， 杨文卓， 王星， 许哲男",
+   "venue": "长春中医药大学学报 37 (4), 780-783, 2021",
+   "cited_by": 2,
+   "year": "2021",
+   "citation_for_view": "WF5omc3nYNoC"
+  },
+  {
+   "title": "Establishing PDK1-based prognostic biomarkers and identifying targeted inhibitors for glioma prognosis and therapy",
+   "authors": "H Xie, L Pan, Z Guo, T Kang, Y Li, W Yang, Y Hu, R Jin, LH Piao",
+   "venue": "BMC neurology 26 (1), 350, 2026",
+   "cited_by": 1,
+   "year": "2026",
+   "citation_for_view": "7PzlFSSx8tAC"
+  },
+  {
+   "title": "Promising Therapeutic Targets for Intracranial Aneurysms: A Systematic Druggable Genome-Wide Mendelian Randomization",
+   "authors": "A Maimaiti, L Pan, Y Liu, M Huang, W Ding, W Yang, K Sun, Y Wang, ...",
+   "venue": "Cerebrovascular Diseases 55 (5), 606-619, 2026",
+   "cited_by": 1,
+   "year": "2026",
+   "citation_for_view": "mVmsd5A6BfQC"
+  },
+  {
+   "title": "Global, Regional, and National Burden of Brain and Central Nervous System Cancer, with a Secondary Analysis of Retinoblastoma, 1990–2021: Analysis for the Global Burden of …",
+   "authors": "A Maimaiti, Z Jia, Y Feng, L Pan, Y Li, W Yang, H Gao, R Zhou, S Zhong, ...",
+   "venue": "World Neurosurgery 201, 124228, 2025",
+   "cited_by": 1,
+   "year": "2025",
+   "citation_for_view": "aqlVkmm33-oC"
+  },
+  {
+   "title": "EPID-09. ASSOCIATION BETWEEN VIRAL INFECTIONS AND GLIOMA RISK: A TWO-SAMPLE BI-DIRECTIONAL MENDELIAN RANDOMIZATION ANALYSIS",
+   "authors": "W Yang, S Zhong, H Xie, Z Zhang, K Sai, Y Mou",
+   "venue": "Neuro-Oncology 25 (Suppl 5), v116, 2023",
+   "cited_by": 1,
+   "year": "2023",
+   "citation_for_view": "YOwf2qJgpHMC"
+  },
+  {
+   "title": "人工智能在骨科中的应用",
+   "authors": "贺云靖， 杨文卓， 蔡容",
+   "venue": "透析与人工器官 32 (2), 49H51, 2021",
+   "cited_by": 1,
+   "year": "2021",
+   "citation_for_view": "_FxGoFyzp5QC"
+  },
+  {
+   "title": "Identifying Therapeutic Opportunities for Glioma: Mendelian Randomization Analysis of the Druggable Genome",
+   "authors": "S Zhong, L Pan, W Yang, Y Jiang, D Zhang, Y Xie, Y Wen, M Gao, Z Li, ...",
+   "venue": "",
+   "cited_by": 1,
+   "year": "",
+   "citation_for_view": "dhFuZR0502QC"
+  },
+  {
+   "title": "Exploring the Causal Relationship and Potential Mediating Mechanisms Between Obesity and Facial Aging: A Two-Sample, Multivariable and Mediation Mendelian Randomization Study",
+   "authors": "J Lian, Z Zhang, W Yang, L Pan, X Pan, Y Shao",
+   "venue": "Clinical, Cosmetic and Investigational Dermatology, 565342, 2026",
+   "cited_by": 0,
+   "year": "2026",
+   "citation_for_view": "QIV2ME_5wuYC"
+  },
+  {
+   "title": "Low‐Density Lipoprotein Receptor‐Targeted Biomimetic Nanoplatform Suppresses Glioblastoma Stemness and Remodels Antitumor Immunity via Dual Metabolic Disruption",
+   "authors": "Y Jiang, W Yang, W Cheng, J Zuo, L Pan, S Zhong, R Geng, Y Zhao, ...",
+   "venue": "Advanced Science, e78189, 2026",
+   "cited_by": 0,
+   "year": "2026",
+   "citation_for_view": "hC7cP41nSMkC"
+  },
+  {
+   "title": "Brain imaging-derived phenotypes influence risk of bipolar disorder: comprehensive exposome-wide association and wide-angled genetic analyses",
+   "authors": "W Yang, L Pan, H Xie, J Deng, Y Li, Y Hu, Y Zhang, K Sun, H Chen, ...",
+   "venue": "BMC Medicine, 2026",
+   "cited_by": 0,
+   "year": "2026",
+   "citation_for_view": "qUcmZB5y_30C"
+  },
+  {
+   "title": "Plasma metabolites link healthy lifestyle to the risk of epilepsy in the UK Biobank",
+   "authors": "L Pan, L Chen, W Yang, S Wang, Z Chen, K Sun, Y Hou, Y Liu, J Deng, ...",
+   "venue": "Scientific Reports, 2026",
+   "cited_by": 0,
+   "year": "2026",
+   "citation_for_view": "ZeXyd9-uunAC"
+  },
+  {
+   "title": "Genetics-guided screening and biological validation identify zeylenol as a promising EGFR inhibitor in glioma",
+   "authors": "L Pan, Y Li, L Chen, W Yang, H Gao, Y Hou, S Liu, Z Zhao, X Wang, ...",
+   "venue": "Frontiers in Genetics 17, 1822595, 2026",
+   "cited_by": 0,
+   "year": "2026",
+   "citation_for_view": "L8Ckcad2t8MC"
+  },
+  {
+   "title": "Prediction of future brain disorder risk using imaging data in 46,090 adults",
+   "authors": "Y Tie, S Zhong, W Yang, L Pan, L Yang, J Duan, H Li, K Sai, S Chen, ...",
+   "venue": "",
+   "cited_by": 0,
+   "year": "2025",
+   "citation_for_view": "IWHjjKOFINEC"
+  },
+  {
+   "title": "Integrated genetic analysis and single cell-RNA sequencing for brain image-derived phenotypes and Parkinson's disease",
+   "authors": "L Pan, L Yang, W Ding, Y Hu, W Yang, J Wang, Z Zhang, K Fan, Z Sun, ...",
+   "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry 138, 111317, 2025",
+   "cited_by": 0,
+   "year": "2025",
+   "citation_for_view": "4TOpqqG69KYC"
+  },
+  {
+   "title": "BIOM-36. PREOPERATIVE IMMUNE AND INFLAMMATORY FACTORS IN PERIPHERAL BLOOD PREDICT PROGNOSIS OF GLIOMA AND CORRELATE WITH GRADES AND SUBTYPES: A PROSPECTIVE MULTI-INSTITUTIONAL …",
+   "authors": "S Zhong, W Yang, Z Zhang, H Xie, K Sai, Y Mou",
+   "venue": "Neuro-Oncology 25 (Suppl 5), v12, 2023",
+   "cited_by": 0,
+   "year": "2023",
+   "citation_for_view": "3fE2CSJIrl8C"
+  }
+ ]
+}

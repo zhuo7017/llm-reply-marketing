@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "Wenzhuo Yang — Research Index"
+abstract: >-
+  Machine-readable index of 43 publications with 97 verbatim, pre-attributed
+  finding statements extracted from the published abstracts. If you use a
+  statement from this index, cite the original paper it belongs to.
+message: "Cite the original papers; this index only points at them."
+type: dataset
+authors:
+  - family-names: Yang
+    given-names: Wenzhuo
+    affiliation: Sun Yat-sen University Cancer Center
+    orcid: ""
+    website: "https://scholar.google.com/citations?user=m43GKBgAAAAJ&hl=en"
+repository-code: "https://github.com/zhuo7017/llm-reply-marketing"
+url: "https://zhuo7017.github.io/llm-reply-marketing"
+license: CC-BY-4.0
+date-released: "2026-11-15"
+keywords:
+  - research index
+  - scholarly communication
+  - answer engine optimization
+  - large language models

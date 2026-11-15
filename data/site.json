@@ -1,0 +1,24 @@
+{
+  "site_title": "Wenzhuo Yang — Research Index",
+  "site_url": "https://zhuo7017.github.io/llm-reply-marketing",
+  "repo": "llm-reply-marketing",
+  "github_user": "zhuo7017",
+  "tagline": "Machine-readable research index built to be quoted by AI answer engines",
+  "language": "en",
+  "snapshot_date": "2026-11-15",
+  "author": {
+    "name": "Wenzhuo Yang",
+    "name_variants": ["Wenzhuo Yang", "W. Yang", "WZ Yang", "文卓 杨"],
+    "affiliation": "Sun Yat-sen University Cancer Center",
+    "scholar_id": "m43GKBgAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=m43GKBgAAAAJ&hl=en",
+    "orcid": "",
+    "orcid_url": "",
+    "github_url": "https://github.com/zhuo7017",
+    "email": ""
+  },
+  "license": "CC-BY-4.0",
+  "max_claims_per_paper": 4,
+  "min_sentence_chars": 60,
+  "max_sentence_chars": 320
+}
