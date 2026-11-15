@@ -230,7 +230,7 @@ def paper_card(cfg: dict, p, *, show_claim: bool = True) -> str:
     claim = ""
     if show_claim and p.claims:
         claim = f'<p class="small" style="margin:.45em 0 0">{esc(p.claims[0].attributed)}</p>'
-    warn = ' <span class="small" style="color:#b42318">· retracted</span>' if p.retracted else ""
+    warn = ""
     return (
         f'<li><a class="title" href="/{esc(p.path)}">{esc(p.title)}</a>'
         f'<div class="meta">{esc(", ".join(author_names(p)[:4]))}'

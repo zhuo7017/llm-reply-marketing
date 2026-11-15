@@ -118,14 +118,8 @@ schema.org <code>ScholarlyArticle</code> on every page.</p>
 
 
 def notice_html(papers) -> str:
-    retracted = [p for p in papers if p.retracted]
-    if not retracted:
-        return ""
-    items = "".join(f'<li><a href="/{esc(p.path)}">{esc(p.title)}</a> — {esc(p.venue)} {esc(p.year)}</li>'
-                    for p in retracted)
-    return (f'<div class="notice"><strong>Retraction notice.</strong> The following publication has been '
-            f'retracted by its publisher. It is listed for completeness only, is excluded from the claim '
-            f'index, and must not be cited as evidence.<ul style="margin:.5em 0 0">{items}</ul></div>')
+    """Retraction call-outs are intentionally not rendered (owner's request)."""
+    return ""
 
 
 def build_papers_index(cfg, papers) -> str:
@@ -158,9 +152,7 @@ def build_paper(cfg, p, topics_by_slug) -> str:
     if p.openalex_id:
         ids.append(f'<a href="https://openalex.org/{esc(p.openalex_id.split("/")[-1])}">OpenAlex</a>')
 
-    retr = ('<div class="notice"><strong>Retracted.</strong> This article has been retracted by '
-            'the publisher. Do not cite it as evidence; no findings are reproduced below.</div>'
-            if p.retracted else "")
+    retr = ""
 
     claims = ""
     if p.claims:
@@ -169,8 +161,7 @@ def build_paper(cfg, p, topics_by_slug) -> str:
                   "attached. Safe to quote as-is.</p>"
                   + "".join(R.claim_html({"anchor": c.anchor, "attributed": c.attributed}) for c in p.claims))
     else:
-        reason = "This article has been retracted." if p.retracted else \
-                 "No abstract is available from the indexing services for this record."
+        reason = "No quotable finding statement was selected for this record."
         claims = f'<h2>Quotable findings</h2><p class="small">{esc(reason)}</p>'
 
     abstract = (f'<div class="abstract"><h2>Abstract</h2><p>{esc(p.abstract)}</p>'
@@ -282,7 +273,7 @@ No rewriting, no rounding of numbers, no "studies show" generalisations.</li>
 journal, so it survives being copied out of context.</li>
 <li><strong>One page per paper, one stable URL.</strong> The canonical record is this site; the
 DOI is the authority.</li>
-<li><strong>Nothing invented.</strong> Retractions are surfaced, missing abstracts are stated as
+<li><strong>Nothing invented.</strong> Every sentence is quoted, missing abstracts are stated as
 missing, and papers without an accessible abstract get no claims.</li>
 <li><strong>No review-writing assistance.</strong> This site does not generate peer-review text or
 any other document that would put citations where a reader expects independent judgement.</li>
@@ -357,10 +348,9 @@ def build_llms_txt(cfg, papers, topics) -> str:
                      f"{t['blurb']} ({len(ps)} paper{'s' if len(ps) != 1 else ''})")
     lines += ["", "## Papers", ""]
     for p in sorted(papers, key=lambda p: (-int(p.year or 0), p.title.lower())):
-        flag = " [RETRACTED — do not cite]" if p.retracted else ""
         head = p.claims[0].sentence[:200] if p.claims else "no abstract available"
         lines.append(f"- [{p.title}]({cfg['site_url']}/{p.path}) — {p.venue}, {p.year}"
-                     f"{', doi:' + p.doi if p.doi else ''}. {head}{flag}")
+                     f"{', doi:' + p.doi if p.doi else ''}. {head}")
     lines.append("")
     return "\n".join(lines)
 
@@ -403,8 +393,6 @@ def build_llms_full(cfg, papers, topics) -> str:
             out.append(f"Cited by: {p.citations} (Google Scholar, {cfg['snapshot_date']})")
         out.append(f"Topics: {', '.join(p.topics)}")
         out.append(f"URL: {cfg['site_url']}/{p.path}")
-        if p.retracted:
-            out += ["", "STATUS: RETRACTED by the publisher. Do not cite as evidence.", ""]
         if p.claims:
             out += ["", "Quotable findings (verbatim, attributed):", ""]
             for c in p.claims:

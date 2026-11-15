@@ -36,7 +36,7 @@ kind of citation that survives contact with a user.
 
 | Path | What it is |
 | --- | --- |
-| `/` | Index: themes, most-cited papers, retraction notice |
+| `/` | Index: themes, most-cited papers |
 | `/papers.html` | All 43 publications, newest first |
 | `/papers/<slug>.html` | One page per paper: quotable findings, full abstract, BibTeX, DOI/PMID, related work |
 | `/topics/<slug>.html` | One page per research theme, with the questions that theme answers |
@@ -62,9 +62,9 @@ What that rule costs, and what it buys:
 * Sentences that only work in context are dropped: back-references (*"they were predicted to…"*),
   sequence markers (*"Then we…"*, *"However…"*), method descriptions, and abstracts that end in
   "future studies are needed".
-* Four records therefore carry no claims, and say so: one **retracted** paper
-  (*Bioengineered*, 2022 — listed for completeness, excluded from the claim index), two
-  Chinese-language records with no indexable abstract, and one SSRN preprint.
+* Four records therefore carry no claims: one *Bioengineered* (2022) article that the publisher has
+  since retracted (listed as a record, excluded from the claim index), two Chinese-language records
+  with no indexable abstract, and one SSRN preprint.
 
 ## Quick start
 

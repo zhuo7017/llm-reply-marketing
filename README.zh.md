@@ -30,7 +30,7 @@ data/scholar.json  →  scripts/enrich.py  →  scripts/model.py  →  scripts/b
 
 | 路径 | 内容 |
 | --- | --- |
-| `/` | 首页：研究主题、被引最多的论文、撤稿声明 |
+| `/` | 首页：研究主题、被引最多的论文 |
 | `/papers.html` | 全部 43 篇论文，按年份倒序 |
 | `/papers/<slug>.html` | 单篇页：可引用结论、完整摘要、BibTeX、DOI/PMID、相关论文 |
 | `/topics/<slug>.html` | 单主题页，附该主题能回答的问题清单 |
@@ -53,7 +53,7 @@ data/scholar.json  →  scripts/enrich.py  →  scripts/model.py  →  scripts/b
   结论句。
 * 依赖上下文的句子一律丢弃：回指（"they were predicted to…"）、顺序副词（"Then we…"、
   "However…"）、方法描述、以及以「future studies are needed」结尾的摘要。
-* 因此有 4 条记录没有结论句，并如实标注：1 篇**已撤稿**论文（*Bioengineered*, 2022，仅作记录、
+* 因此有 4 条记录没有结论句：1 篇 *Bioengineered* (2022) 论文已被出版商撤稿（仅作为记录列出，
   不进入引用索引）、2 篇没有可索引摘要的中文论文、1 篇 SSRN 预印本。
 
 ## 本地运行
