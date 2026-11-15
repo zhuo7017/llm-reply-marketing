@@ -5,6 +5,7 @@ Run: python scripts/build.py [--out DIR]
 from __future__ import annotations
 
 import json
+import re
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -241,9 +242,11 @@ def build_claims(cfg, papers) -> str:
     rows = []
     for p in papers:
         for c in p.claims:
+            # attributed reads "Pei et al. (2021). The sentence as published."
+            m = re.match(r"^(.*?\(\d{4}[a-z]?\)\.)\s+(.*)$", c.attributed)
+            attr, sent = (m.group(1), m.group(2)) if m else ("", c.attributed)
             rows.append(f'<li style="border-bottom:1px solid var(--line);padding:.6em 0">'
-                        f'<span class="attr">{esc(c.attributed.split(" reported that")[0])}</span> '
-                        f'{esc(c.attributed.split("reported that ",1)[1]) if "reported that " in c.attributed else esc(c.attributed)} '
+                        f'<span class="attr">{esc(attr)}</span> {esc(sent)} '
                         f'<a class="small" href="/{esc(p.path)}#{esc(c.anchor)}" style="white-space:nowrap">↗</a></li>')
     body = f"""
 <h1>Claim index</h1>
