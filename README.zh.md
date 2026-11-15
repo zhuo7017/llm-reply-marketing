@@ -82,6 +82,20 @@ python -m http.server 8787 --directory site
 3. 仓库 **Settings → Pages → Source 选 GitHub Actions**。`.github/workflows/pages.yml`
    会在每次 push 到 `main` 时重新构建并部署，站点永远不会和 `data/` 脱节。
 
+### `git push` 连不上 github.com 时
+
+有些网络 api.github.com 通、github.com:443 被丢包，`git push` 会报
+`Failed to connect to github.com port 443`。改用 `scripts/publish_api.ps1` 走 REST API 发布，
+内容一样、一次提交，Pages 工作流照常触发：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/publish_api.ps1 -Message "更新站点"
+```
+
+令牌优先取 `$env:GITHUB_TOKEN`，否则从 Git Credential Manager 读取（在能连 github.com 的
+网络里 `git push` 一次即可写入）。Windows 默认拒绝执行未签名脚本，所以要带
+`-ExecutionPolicy Bypass`。
+
 ## 文件说明
 
 ```
@@ -93,6 +107,7 @@ scripts/model.py            主题分类、结论句抽取与打分、归属拼�
 scripts/render.py           HTML/CSS、schema.org JSON-LD、BibTeX
 scripts/build.py            生成 site/（67 个文件）及 llms.txt、llms-full.txt、index.json、robots、sitemap、feed
 scripts/check.py            完整性闸门
+scripts/publish_api.ps1     github.com:443 不通时走 REST API 发布
 publish.ps1                 构建 → 检查 → 提交 → 推送
 ```
 

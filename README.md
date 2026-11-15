@@ -95,6 +95,20 @@ python -m http.server 8787 --directory site
    `.github/workflows/pages.yml` rebuilds and deploys on every push to `main`, so the site can
    never drift from `data/`.
 
+### If `git push` cannot reach github.com
+
+On some networks `api.github.com` answers while `github.com:443` is dropped, so `git push` dies with
+`Failed to connect to github.com port 443`. `scripts/publish_api.ps1` publishes over the REST API
+instead — same content, one commit, and the Pages workflow still runs:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/publish_api.ps1 -Message "Update site"
+```
+
+It takes the token from `$env:GITHUB_TOKEN` if set, otherwise from Git Credential Manager (run
+`git push` once somewhere github.com is reachable to populate it). `-ExecutionPolicy Bypass` is
+needed because Windows refuses to run unsigned local scripts by default.
+
 ## Files
 
 ```
@@ -106,6 +120,7 @@ scripts/model.py            topics, claim extraction, scoring, attribution
 scripts/render.py           HTML/CSS, schema.org JSON-LD, BibTeX
 scripts/build.py            writes site/ (67 files) + llms.txt, llms-full.txt, index.json, robots, sitemap, feed
 scripts/check.py            integrity gate
+scripts/publish_api.ps1     publish through the REST API when github.com:443 is blocked
 publish.ps1                 build → check → commit → push
 ```
 
